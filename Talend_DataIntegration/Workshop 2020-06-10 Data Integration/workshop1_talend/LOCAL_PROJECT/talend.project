@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_ZKZTgUzyEeqoAvSjzZQoVw" label="Local_Project" description="" language="java" technicalLabel="LOCAL_PROJECT" local="true" author="_ZKezEEzyEeqoAvSjzZQoVw" productVersion="Talend Real-time Big Data Platform-7.1.1.20181026_1147" itemsRelationVersion="1.3">
+    <componentsSettings xmi:id="_7JZYcIOAEeqrw7xlpeJ5ow" name="DI|tArray" family="Technical"/>
+    <componentsSettings xmi:id="_7JZYcYOAEeqrw7xlpeJ5ow" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_7JZYcoOAEeqrw7xlpeJ5ow" name="DI|tArrayIn" family="Technical"/>
+    <componentsSettings xmi:id="_7JZYc4OAEeqrw7xlpeJ5ow" name="DI|tHashOutput" family="Technical"/>
+    <migrationTask xmi:id="_ZXhJgEzyEeqoAvSjzZQoVw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_ZKezEEzyEeqoAvSjzZQoVw" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>

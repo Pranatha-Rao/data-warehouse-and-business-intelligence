@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.Address.AddressID,
+	AdventureWorks2017.Person.Address.City,
+	AdventureWorks2017.Person.Address.StateProvinceID,
+	AdventureWorks2017.Person.Address.PostalCode 
+from AdventureWorks2017.Person.Address</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorks_Purchase
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="AddressID" source="File: aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.Address.AddressID,&#xA;	AdventureWorks2017.Person.Address.City,&#xA;	AdventureWorks2017.Person.Address.StateProvinceID,&#xA;	AdventureWorks2017.Person.Address.PostalCode &#xA;from AdventureWorks2017.Person.Address" type="Int32" />
+            <Field name="City" size="30" source="File: aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.Address.AddressID,&#xA;	AdventureWorks2017.Person.Address.City,&#xA;	AdventureWorks2017.Person.Address.StateProvinceID,&#xA;	AdventureWorks2017.Person.Address.PostalCode &#xA;from AdventureWorks2017.Person.Address" type="V_WString" />
+            <Field name="StateProvinceID" source="File: aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.Address.AddressID,&#xA;	AdventureWorks2017.Person.Address.City,&#xA;	AdventureWorks2017.Person.Address.StateProvinceID,&#xA;	AdventureWorks2017.Person.Address.PostalCode &#xA;from AdventureWorks2017.Person.Address" type="Int32" />
+            <Field name="PostalCode" size="15" source="File: aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.Address.AddressID,&#xA;	AdventureWorks2017.Person.Address.City,&#xA;	AdventureWorks2017.Person.Address.StateProvinceID,&#xA;	AdventureWorks2017.Person.Address.PostalCode &#xA;from AdventureWorks2017.Person.Address" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.StateProvince.StateProvinceID,
+	AdventureWorks2017.Person.StateProvince.StateProvinceCode,
+	AdventureWorks2017.Person.StateProvince.IsOnlyStateProvinceFlag,
+	AdventureWorks2017.Person.StateProvince.Name,
+	AdventureWorks2017.Person.StateProvince.CountryRegionCode 
+from AdventureWorks2017.Person.StateProvince</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorks_Purchase
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StateProvinceID" source="File: aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2017.Person.StateProvince.StateProvinceCode,&#xA;	AdventureWorks2017.Person.StateProvince.IsOnlyStateProvinceFlag,&#xA;	AdventureWorks2017.Person.StateProvince.Name,&#xA;	AdventureWorks2017.Person.StateProvince.CountryRegionCode &#xA;from AdventureWorks2017.Person.StateProvince" type="Int32" />
+            <Field name="StateProvinceCode" size="3" source="File: aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2017.Person.StateProvince.StateProvinceCode,&#xA;	AdventureWorks2017.Person.StateProvince.IsOnlyStateProvinceFlag,&#xA;	AdventureWorks2017.Person.StateProvince.Name,&#xA;	AdventureWorks2017.Person.StateProvince.CountryRegionCode &#xA;from AdventureWorks2017.Person.StateProvince" type="WString" />
+            <Field name="IsOnlyStateProvinceFlag" source="File: aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2017.Person.StateProvince.StateProvinceCode,&#xA;	AdventureWorks2017.Person.StateProvince.IsOnlyStateProvinceFlag,&#xA;	AdventureWorks2017.Person.StateProvince.Name,&#xA;	AdventureWorks2017.Person.StateProvince.CountryRegionCode &#xA;from AdventureWorks2017.Person.StateProvince" type="Bool" />
+            <Field name="Name" size="50" source="File: aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2017.Person.StateProvince.StateProvinceCode,&#xA;	AdventureWorks2017.Person.StateProvince.IsOnlyStateProvinceFlag,&#xA;	AdventureWorks2017.Person.StateProvince.Name,&#xA;	AdventureWorks2017.Person.StateProvince.CountryRegionCode &#xA;from AdventureWorks2017.Person.StateProvince" type="V_WString" />
+            <Field name="CountryRegionCode" size="3" source="File: aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2017.Person.StateProvince.StateProvinceCode,&#xA;	AdventureWorks2017.Person.StateProvince.IsOnlyStateProvinceFlag,&#xA;	AdventureWorks2017.Person.StateProvince.Name,&#xA;	AdventureWorks2017.Person.StateProvince.CountryRegionCode &#xA;from AdventureWorks2017.Person.StateProvince" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="270" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StateProvinceID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StateProvinceID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_AddressID" selected="True" input="Left_" />
+                <SelectField field="Left_City" selected="True" input="Left_" type="V_String" size="30" />
+                <SelectField field="Left_StateProvinceID" selected="True" input="Left_" />
+                <SelectField field="Left_PostalCode" selected="True" input="Left_" type="V_String" size="15" />
+                <SelectField field="Right_StateProvinceID" selected="False" rename="Right_StateProvinceID" input="Right_" />
+                <SelectField field="Right_StateProvinceCode" selected="True" input="Right_" />
+                <SelectField field="Right_IsOnlyStateProvinceFlag" selected="True" input="Right_" />
+                <SelectField field="Right_Name" selected="True" rename="StateProvinceName" input="Right_" type="V_String" size="50" />
+                <SelectField field="Right_CountryRegionCode" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="258" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.CountryRegion.CountryRegionCode,
+	AdventureWorks2017.Person.CountryRegion.Name 
+from AdventureWorks2017.Person.CountryRegion</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorks_Purchase
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CountryRegionCode" size="3" source="File: aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.CountryRegion.CountryRegionCode,&#xA;	AdventureWorks2017.Person.CountryRegion.Name &#xA;from AdventureWorks2017.Person.CountryRegion" type="V_WString" />
+            <Field name="Name" size="50" source="File: aka:AdvWorks_Purchase|||select AdventureWorks2017.Person.CountryRegion.CountryRegionCode,&#xA;	AdventureWorks2017.Person.CountryRegion.Name &#xA;from AdventureWorks2017.Person.CountryRegion" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="414" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CountryRegionCode" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CountryRegionCode" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_AddressID" selected="True" rename="GeoKey" input="Left_" />
+                <SelectField field="Left_City" selected="True" input="Left_" />
+                <SelectField field="Left_StateProvinceID" selected="True" input="Left_" />
+                <SelectField field="Left_PostalCode" selected="True" input="Left_" />
+                <SelectField field="Left_StateProvinceCode" selected="True" input="Left_" />
+                <SelectField field="Left_IsOnlyStateProvinceFlag" selected="True" input="Left_" />
+                <SelectField field="Left_StateProvinceName" selected="True" input="Left_" />
+                <SelectField field="Right_CountryRegionCode" selected="True" input="Right_" type="V_String" size="3" />
+                <SelectField field="Right_Name" selected="True" rename="CountryRegionNmae" input="Right_" type="V_String" size="50" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="534" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:AdvWorks_Purchase|||DimGeography</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorks_Purchase
+Query=DimGeography</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DimGeography</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

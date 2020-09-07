@@ -1,0 +1,890 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderDetail.PurchaseOrderID,
+	Purchasing.PurchaseOrderDetail.PurchaseOrderDetailID,
+	Purchasing.PurchaseOrderDetail.DueDate,
+	Purchasing.PurchaseOrderDetail.OrderQty,
+	Purchasing.PurchaseOrderDetail.ProductID,
+	Purchasing.PurchaseOrderDetail.UnitPrice,
+	Purchasing.PurchaseOrderDetail.LineTotal,
+	Purchasing.PurchaseOrderDetail.ReceivedQty,
+	Purchasing.PurchaseOrderDetail.RejectedQty,
+	Purchasing.PurchaseOrderDetail.StockedQty 
+from Purchasing.PurchaseOrderDetail</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure_Works_2017
+Query=select Purchasing.PurchaseOr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PurchaseOrderID" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderDetail.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderDetail.PurchaseOrderDetailID,&#xA;	Purchasing.PurchaseOrderDetail.DueDate,&#xA;	Purchasing.PurchaseOrderDetail.OrderQty,&#xA;	Purchasing.PurchaseOrderDetail.ProductID,&#xA;	Purchasing.PurchaseOrderDetail.UnitPrice,&#xA;	Purchasing.PurchaseOrderDetail.LineTotal,&#xA;	Purchasing.PurchaseOrderDetail.ReceivedQty,&#xA;	Purchasing.PurchaseOrderDetail.RejectedQty,&#xA;	Purchasing.PurchaseOrderDetail.StockedQty &#xA;from Purchasing.PurchaseOrderDetail" type="Int32" />
+            <Field name="PurchaseOrderDetailID" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderDetail.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderDetail.PurchaseOrderDetailID,&#xA;	Purchasing.PurchaseOrderDetail.DueDate,&#xA;	Purchasing.PurchaseOrderDetail.OrderQty,&#xA;	Purchasing.PurchaseOrderDetail.ProductID,&#xA;	Purchasing.PurchaseOrderDetail.UnitPrice,&#xA;	Purchasing.PurchaseOrderDetail.LineTotal,&#xA;	Purchasing.PurchaseOrderDetail.ReceivedQty,&#xA;	Purchasing.PurchaseOrderDetail.RejectedQty,&#xA;	Purchasing.PurchaseOrderDetail.StockedQty &#xA;from Purchasing.PurchaseOrderDetail" type="Int32" />
+            <Field name="DueDate" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderDetail.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderDetail.PurchaseOrderDetailID,&#xA;	Purchasing.PurchaseOrderDetail.DueDate,&#xA;	Purchasing.PurchaseOrderDetail.OrderQty,&#xA;	Purchasing.PurchaseOrderDetail.ProductID,&#xA;	Purchasing.PurchaseOrderDetail.UnitPrice,&#xA;	Purchasing.PurchaseOrderDetail.LineTotal,&#xA;	Purchasing.PurchaseOrderDetail.ReceivedQty,&#xA;	Purchasing.PurchaseOrderDetail.RejectedQty,&#xA;	Purchasing.PurchaseOrderDetail.StockedQty &#xA;from Purchasing.PurchaseOrderDetail" type="DateTime" />
+            <Field name="OrderQty" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderDetail.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderDetail.PurchaseOrderDetailID,&#xA;	Purchasing.PurchaseOrderDetail.DueDate,&#xA;	Purchasing.PurchaseOrderDetail.OrderQty,&#xA;	Purchasing.PurchaseOrderDetail.ProductID,&#xA;	Purchasing.PurchaseOrderDetail.UnitPrice,&#xA;	Purchasing.PurchaseOrderDetail.LineTotal,&#xA;	Purchasing.PurchaseOrderDetail.ReceivedQty,&#xA;	Purchasing.PurchaseOrderDetail.RejectedQty,&#xA;	Purchasing.PurchaseOrderDetail.StockedQty &#xA;from Purchasing.PurchaseOrderDetail" type="Int16" />
+            <Field name="ProductID" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderDetail.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderDetail.PurchaseOrderDetailID,&#xA;	Purchasing.PurchaseOrderDetail.DueDate,&#xA;	Purchasing.PurchaseOrderDetail.OrderQty,&#xA;	Purchasing.PurchaseOrderDetail.ProductID,&#xA;	Purchasing.PurchaseOrderDetail.UnitPrice,&#xA;	Purchasing.PurchaseOrderDetail.LineTotal,&#xA;	Purchasing.PurchaseOrderDetail.ReceivedQty,&#xA;	Purchasing.PurchaseOrderDetail.RejectedQty,&#xA;	Purchasing.PurchaseOrderDetail.StockedQty &#xA;from Purchasing.PurchaseOrderDetail" type="Int32" />
+            <Field name="UnitPrice" scale="4" size="21" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderDetail.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderDetail.PurchaseOrderDetailID,&#xA;	Purchasing.PurchaseOrderDetail.DueDate,&#xA;	Purchasing.PurchaseOrderDetail.OrderQty,&#xA;	Purchasing.PurchaseOrderDetail.ProductID,&#xA;	Purchasing.PurchaseOrderDetail.UnitPrice,&#xA;	Purchasing.PurchaseOrderDetail.LineTotal,&#xA;	Purchasing.PurchaseOrderDetail.ReceivedQty,&#xA;	Purchasing.PurchaseOrderDetail.RejectedQty,&#xA;	Purchasing.PurchaseOrderDetail.StockedQty &#xA;from Purchasing.PurchaseOrderDetail" type="FixedDecimal" />
+            <Field name="LineTotal" scale="4" size="21" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderDetail.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderDetail.PurchaseOrderDetailID,&#xA;	Purchasing.PurchaseOrderDetail.DueDate,&#xA;	Purchasing.PurchaseOrderDetail.OrderQty,&#xA;	Purchasing.PurchaseOrderDetail.ProductID,&#xA;	Purchasing.PurchaseOrderDetail.UnitPrice,&#xA;	Purchasing.PurchaseOrderDetail.LineTotal,&#xA;	Purchasing.PurchaseOrderDetail.ReceivedQty,&#xA;	Purchasing.PurchaseOrderDetail.RejectedQty,&#xA;	Purchasing.PurchaseOrderDetail.StockedQty &#xA;from Purchasing.PurchaseOrderDetail" type="FixedDecimal" />
+            <Field name="ReceivedQty" scale="2" size="10" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderDetail.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderDetail.PurchaseOrderDetailID,&#xA;	Purchasing.PurchaseOrderDetail.DueDate,&#xA;	Purchasing.PurchaseOrderDetail.OrderQty,&#xA;	Purchasing.PurchaseOrderDetail.ProductID,&#xA;	Purchasing.PurchaseOrderDetail.UnitPrice,&#xA;	Purchasing.PurchaseOrderDetail.LineTotal,&#xA;	Purchasing.PurchaseOrderDetail.ReceivedQty,&#xA;	Purchasing.PurchaseOrderDetail.RejectedQty,&#xA;	Purchasing.PurchaseOrderDetail.StockedQty &#xA;from Purchasing.PurchaseOrderDetail" type="FixedDecimal" />
+            <Field name="RejectedQty" scale="2" size="10" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderDetail.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderDetail.PurchaseOrderDetailID,&#xA;	Purchasing.PurchaseOrderDetail.DueDate,&#xA;	Purchasing.PurchaseOrderDetail.OrderQty,&#xA;	Purchasing.PurchaseOrderDetail.ProductID,&#xA;	Purchasing.PurchaseOrderDetail.UnitPrice,&#xA;	Purchasing.PurchaseOrderDetail.LineTotal,&#xA;	Purchasing.PurchaseOrderDetail.ReceivedQty,&#xA;	Purchasing.PurchaseOrderDetail.RejectedQty,&#xA;	Purchasing.PurchaseOrderDetail.StockedQty &#xA;from Purchasing.PurchaseOrderDetail" type="FixedDecimal" />
+            <Field name="StockedQty" scale="2" size="11" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderDetail.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderDetail.PurchaseOrderDetailID,&#xA;	Purchasing.PurchaseOrderDetail.DueDate,&#xA;	Purchasing.PurchaseOrderDetail.OrderQty,&#xA;	Purchasing.PurchaseOrderDetail.ProductID,&#xA;	Purchasing.PurchaseOrderDetail.UnitPrice,&#xA;	Purchasing.PurchaseOrderDetail.LineTotal,&#xA;	Purchasing.PurchaseOrderDetail.ReceivedQty,&#xA;	Purchasing.PurchaseOrderDetail.RejectedQty,&#xA;	Purchasing.PurchaseOrderDetail.StockedQty &#xA;from Purchasing.PurchaseOrderDetail" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,
+	Purchasing.PurchaseOrderHeader.RevisionNumber,
+	Purchasing.PurchaseOrderHeader.Status,
+	Purchasing.PurchaseOrderHeader.EmployeeID,
+	Purchasing.PurchaseOrderHeader.VendorID,
+	Purchasing.PurchaseOrderHeader.ShipMethodID,
+	Purchasing.PurchaseOrderHeader.ShipDate,
+	Purchasing.PurchaseOrderHeader.OrderDate,
+	Purchasing.PurchaseOrderHeader.SubTotal,
+	Purchasing.PurchaseOrderHeader.TaxAmt,
+	Purchasing.PurchaseOrderHeader.Freight,
+	Purchasing.PurchaseOrderHeader.TotalDue 
+from Purchasing.PurchaseOrderHeader</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure_Works_2017
+Query=select Purchasing.PurchaseOr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PurchaseOrderID" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="Int32" />
+            <Field name="RevisionNumber" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="Int16" />
+            <Field name="Status" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="Int16" />
+            <Field name="EmployeeID" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="Int32" />
+            <Field name="VendorID" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="Int32" />
+            <Field name="ShipMethodID" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="Int32" />
+            <Field name="ShipDate" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="DateTime" />
+            <Field name="OrderDate" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="DateTime" />
+            <Field name="SubTotal" scale="4" size="21" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="FixedDecimal" />
+            <Field name="TaxAmt" scale="4" size="21" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="FixedDecimal" />
+            <Field name="Freight" scale="4" size="21" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="FixedDecimal" />
+            <Field name="TotalDue" scale="4" size="21" source="File: aka:Adventure_Works_2017|||select Purchasing.PurchaseOrderHeader.PurchaseOrderID,&#xA;	Purchasing.PurchaseOrderHeader.RevisionNumber,&#xA;	Purchasing.PurchaseOrderHeader.Status,&#xA;	Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	Purchasing.PurchaseOrderHeader.VendorID,&#xA;	Purchasing.PurchaseOrderHeader.ShipMethodID,&#xA;	Purchasing.PurchaseOrderHeader.ShipDate,&#xA;	Purchasing.PurchaseOrderHeader.OrderDate,&#xA;	Purchasing.PurchaseOrderHeader.SubTotal,&#xA;	Purchasing.PurchaseOrderHeader.TaxAmt,&#xA;	Purchasing.PurchaseOrderHeader.Freight,&#xA;	Purchasing.PurchaseOrderHeader.TotalDue &#xA;from Purchasing.PurchaseOrderHeader" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="198" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="PurchaseOrderID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="PurchaseOrderID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_PurchaseOrderID" selected="True" rename="Right_PurchaseOrderID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimVendor.VendorKey,
+	AW_Purchase_DW.dbo.DimVendor.GeoKey 
+from AW_Purchase_DW.dbo.DimVendor</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure_Works_2017
+Query=select AW_Purchase_DW.dbo.Di...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="VendorKey" source="File: aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimVendor.VendorKey,&#xA;	AW_Purchase_DW.dbo.DimVendor.GeoKey &#xA;from AW_Purchase_DW.dbo.DimVendor" type="Int32" />
+            <Field name="GeoKey" source="File: aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimVendor.VendorKey,&#xA;	AW_Purchase_DW.dbo.DimVendor.GeoKey &#xA;from AW_Purchase_DW.dbo.DimVendor" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="354" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="VendorID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="VendorKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_SubTotal" selected="False" input="Left_" />
+                <SelectField field="Left_Freight" selected="False" input="Left_" />
+                <SelectField field="Left_TotalDue" selected="False" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="486" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="EmployeeID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="EmployeeID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_EmployeeID" selected="True" rename="Right_EmployeeID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="366" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimEmployee.EmployeeID 
+from AW_Purchase_DW.dbo.DimEmployee</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure_Works_2017
+Query=select AW_Purchase_DW.dbo.Di...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EmployeeID" source="File: aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimEmployee.EmployeeID &#xA;from AW_Purchase_DW.dbo.DimEmployee" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="510" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimProduct_Purchased.ProductID 
+from AW_Purchase_DW.dbo.DimProduct_Purchased</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure_Works_2017
+Query=select AW_Purchase_DW.dbo.Di...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductID" source="File: aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimProduct_Purchased.ProductID &#xA;from AW_Purchase_DW.dbo.DimProduct_Purchased" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="606" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProductID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProductID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Right_EmployeeID" selected="False" input="Left_" />
+                <SelectField field="Right_ProductID" selected="False" rename="Right_ProductID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="738" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ShipMethodID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ShipMethodID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_ShipMethodID" selected="True" rename="Right_ShipMethodID" input="Right_" />
+                <SelectField field="Right_VendorKey" selected="False" rename="Right_VendorKey" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="678" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimShipMethod.ShipMethodID 
+from AW_Purchase_DW.dbo.DimShipMethod</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure_Works_2017
+Query=select AW_Purchase_DW.dbo.Di...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ShipMethodID" source="File: aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimShipMethod.ShipMethodID &#xA;from AW_Purchase_DW.dbo.DimShipMethod" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="822" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimDate.FullDateAlternateKey 
+from AW_Purchase_DW.dbo.DimDate</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure_Works_2017
+Query=select AW_Purchase_DW.dbo.Di...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullDateAlternateKey" source="File: aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimDate.FullDateAlternateKey &#xA;from AW_Purchase_DW.dbo.DimDate" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="918" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="OrderDate" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullDateAlternateKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_PurchaseOrderID" selected="True" input="Left_" />
+                <SelectField field="Left_PurchaseOrderDetailID" selected="True" input="Left_" />
+                <SelectField field="Left_DueDate" selected="True" input="Left_" />
+                <SelectField field="Left_OrderQty" selected="True" input="Left_" />
+                <SelectField field="Left_ProductID" selected="True" input="Left_" />
+                <SelectField field="Left_UnitPrice" selected="True" input="Left_" />
+                <SelectField field="Left_LineTotal" selected="True" input="Left_" />
+                <SelectField field="Left_ReceivedQty" selected="True" input="Left_" />
+                <SelectField field="Left_RejectedQty" selected="True" input="Left_" />
+                <SelectField field="Left_StockedQty" selected="True" input="Left_" />
+                <SelectField field="Left_Right_PurchaseOrderID" selected="True" input="Left_" />
+                <SelectField field="Left_RevisionNumber" selected="True" input="Left_" />
+                <SelectField field="Left_Status" selected="True" input="Left_" />
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_ShipMethodID" selected="True" input="Left_" />
+                <SelectField field="Left_ShipDate" selected="True" input="Left_" />
+                <SelectField field="Left_OrderDate" selected="True" input="Left_" />
+                <SelectField field="Left_TaxAmt" selected="True" input="Left_" />
+                <SelectField field="Left_FreightAmt" selected="True" input="Left_" />
+                <SelectField field="Left_TotalDueAmt" selected="True" input="Left_" />
+                <SelectField field="Left_VendorKey" selected="True" input="Left_" />
+                <SelectField field="Left_GeoKey" selected="True" input="Left_" />
+                <SelectField field="Left_Right_ShipMethodID" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1170" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimGeography.GeoKey 
+from AW_Purchase_DW.dbo.DimGeography</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure_Works_2017
+Query=select AW_Purchase_DW.dbo.Di...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GeoKey" source="File: aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimGeography.GeoKey &#xA;from AW_Purchase_DW.dbo.DimGeography" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1290" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="GeoKey" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="GeoKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_PurchaseOrderID" selected="True" input="Left_" />
+                <SelectField field="Left_PurchaseOrderDetailID" selected="True" input="Left_" />
+                <SelectField field="Left_DueDate" selected="True" input="Left_" />
+                <SelectField field="Left_OrderQty" selected="True" input="Left_" />
+                <SelectField field="Left_ProductID" selected="True" input="Left_" />
+                <SelectField field="Left_UnitPrice" selected="True" input="Left_" />
+                <SelectField field="Left_LineTotal" selected="True" input="Left_" />
+                <SelectField field="Left_ReceivedQty" selected="True" input="Left_" />
+                <SelectField field="Left_RejectedQty" selected="True" input="Left_" />
+                <SelectField field="Left_StockedQty" selected="True" input="Left_" />
+                <SelectField field="Left_Right_PurchaseOrderID" selected="True" input="Left_" />
+                <SelectField field="Left_RevisionNumber" selected="True" input="Left_" />
+                <SelectField field="Left_Status" selected="True" input="Left_" />
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_ShipMethodID" selected="True" input="Left_" />
+                <SelectField field="Left_ShipDate" selected="True" input="Left_" />
+                <SelectField field="Left_OrderDate" selected="True" input="Left_" />
+                <SelectField field="Left_TaxAmt" selected="True" input="Left_" />
+                <SelectField field="Left_FreightAmt" selected="True" input="Left_" />
+                <SelectField field="Left_TotalDueAmt" selected="True" input="Left_" />
+                <SelectField field="Left_VendorKey" selected="True" input="Left_" />
+                <SelectField field="Left_GeoKey" selected="True" input="Left_" />
+                <SelectField field="Right_GeoKey" selected="False" rename="Right_GeoKey" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="954" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimDate.FullDateAlternateKey 
+from AW_Purchase_DW.dbo.DimDate</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure_Works_2017
+Query=select AW_Purchase_DW.dbo.Di...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullDateAlternateKey" source="File: aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimDate.FullDateAlternateKey &#xA;from AW_Purchase_DW.dbo.DimDate" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1074" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimDate.FullDateAlternateKey 
+from AW_Purchase_DW.dbo.DimDate</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure_Works_2017
+Query=select AW_Purchase_DW.dbo.Di...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullDateAlternateKey" source="File: aka:Adventure_Works_2017|||select AW_Purchase_DW.dbo.DimDate.FullDateAlternateKey &#xA;from AW_Purchase_DW.dbo.DimDate" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1014" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="DueDate" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullDateAlternateKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Right_ShipMethodID" selected="False" input="Left_" />
+                <SelectField field="Right_FullDateAlternateKey" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1146" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ShipDate" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullDateAlternateKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_FullDateAlternateKey" selected="False" rename="Right_FullDateAlternateKey" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="([LineTotal]/[SubTotal])*[TaxAmt]" field="TaxAmt" size="21.4" type="FixedDecimal" />
+            <FormulaField expression="([LineTotal]/[SubTotal])*[Freight]" field="FreightAmt" size="1073741823" type="V_WString" />
+            <FormulaField expression="([LineTotal]/[SubTotal])*[TotalDue]" field="TotalDueAmt" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TaxAmt = ([LineTotal]/[SubTotal])*[TaxAmt]
+FreightAmt = ([LineTotal]/[SubTotal])...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1422" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Adeventure_Works_Purchase_Out|||FactPurchase</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adeventure_Works_Purchase_Out
+Query=FactPurchase</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="12" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Join" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Join" />
+      <Destination ToolID="20" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="20" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Join" />
+      <Destination ToolID="17" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Join" />
+      <Destination ToolID="21" Connection="Left" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Fact_Purchase_updated</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

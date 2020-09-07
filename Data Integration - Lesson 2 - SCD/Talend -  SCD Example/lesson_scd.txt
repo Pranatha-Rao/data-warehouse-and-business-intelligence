@@ -1,0 +1,5 @@
+create_table_EmployeeDeptHistory_scd_mysql_tutorial.txt
+EmployeeDeptHistory.csv
+lesson_scd.txt
+talend_scd_example_job.png
+Tutorial - Talend - SCD Example 1.docx

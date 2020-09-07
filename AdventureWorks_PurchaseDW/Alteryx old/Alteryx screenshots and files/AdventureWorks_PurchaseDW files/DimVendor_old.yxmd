@@ -1,0 +1,608 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:AdvWorksPurchase|||select AdventureWorks2017.Purchasing.Vendor.BusinessEntityID,
+	AdventureWorks2017.Purchasing.Vendor.AccountNumber,
+	AdventureWorks2017.Purchasing.Vendor.Name,
+	AdventureWorks2017.Purchasing.Vendor.CreditRating,
+	AdventureWorks2017.Purchasing.Vendor.PreferredVendorStatus,
+	AdventureWorks2017.Purchasing.Vendor.ActiveFlag,
+	AdventureWorks2017.Purchasing.Vendor.PurchasingWebServiceURL 
+from AdventureWorks2017.Purchasing.Vendor</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorksPurchase
+Query=select AdventureWorks2017.Pu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessEntityID" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Purchasing.Vendor.BusinessEntityID,&#xA;	AdventureWorks2017.Purchasing.Vendor.AccountNumber,&#xA;	AdventureWorks2017.Purchasing.Vendor.Name,&#xA;	AdventureWorks2017.Purchasing.Vendor.CreditRating,&#xA;	AdventureWorks2017.Purchasing.Vendor.PreferredVendorStatus,&#xA;	AdventureWorks2017.Purchasing.Vendor.ActiveFlag,&#xA;	AdventureWorks2017.Purchasing.Vendor.PurchasingWebServiceURL &#xA;from AdventureWorks2017.Purchasing.Vendor" type="Int32" />
+            <Field name="AccountNumber" size="15" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Purchasing.Vendor.BusinessEntityID,&#xA;	AdventureWorks2017.Purchasing.Vendor.AccountNumber,&#xA;	AdventureWorks2017.Purchasing.Vendor.Name,&#xA;	AdventureWorks2017.Purchasing.Vendor.CreditRating,&#xA;	AdventureWorks2017.Purchasing.Vendor.PreferredVendorStatus,&#xA;	AdventureWorks2017.Purchasing.Vendor.ActiveFlag,&#xA;	AdventureWorks2017.Purchasing.Vendor.PurchasingWebServiceURL &#xA;from AdventureWorks2017.Purchasing.Vendor" type="V_WString" />
+            <Field name="Name" size="50" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Purchasing.Vendor.BusinessEntityID,&#xA;	AdventureWorks2017.Purchasing.Vendor.AccountNumber,&#xA;	AdventureWorks2017.Purchasing.Vendor.Name,&#xA;	AdventureWorks2017.Purchasing.Vendor.CreditRating,&#xA;	AdventureWorks2017.Purchasing.Vendor.PreferredVendorStatus,&#xA;	AdventureWorks2017.Purchasing.Vendor.ActiveFlag,&#xA;	AdventureWorks2017.Purchasing.Vendor.PurchasingWebServiceURL &#xA;from AdventureWorks2017.Purchasing.Vendor" type="V_WString" />
+            <Field name="CreditRating" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Purchasing.Vendor.BusinessEntityID,&#xA;	AdventureWorks2017.Purchasing.Vendor.AccountNumber,&#xA;	AdventureWorks2017.Purchasing.Vendor.Name,&#xA;	AdventureWorks2017.Purchasing.Vendor.CreditRating,&#xA;	AdventureWorks2017.Purchasing.Vendor.PreferredVendorStatus,&#xA;	AdventureWorks2017.Purchasing.Vendor.ActiveFlag,&#xA;	AdventureWorks2017.Purchasing.Vendor.PurchasingWebServiceURL &#xA;from AdventureWorks2017.Purchasing.Vendor" type="Int16" />
+            <Field name="PreferredVendorStatus" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Purchasing.Vendor.BusinessEntityID,&#xA;	AdventureWorks2017.Purchasing.Vendor.AccountNumber,&#xA;	AdventureWorks2017.Purchasing.Vendor.Name,&#xA;	AdventureWorks2017.Purchasing.Vendor.CreditRating,&#xA;	AdventureWorks2017.Purchasing.Vendor.PreferredVendorStatus,&#xA;	AdventureWorks2017.Purchasing.Vendor.ActiveFlag,&#xA;	AdventureWorks2017.Purchasing.Vendor.PurchasingWebServiceURL &#xA;from AdventureWorks2017.Purchasing.Vendor" type="Bool" />
+            <Field name="ActiveFlag" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Purchasing.Vendor.BusinessEntityID,&#xA;	AdventureWorks2017.Purchasing.Vendor.AccountNumber,&#xA;	AdventureWorks2017.Purchasing.Vendor.Name,&#xA;	AdventureWorks2017.Purchasing.Vendor.CreditRating,&#xA;	AdventureWorks2017.Purchasing.Vendor.PreferredVendorStatus,&#xA;	AdventureWorks2017.Purchasing.Vendor.ActiveFlag,&#xA;	AdventureWorks2017.Purchasing.Vendor.PurchasingWebServiceURL &#xA;from AdventureWorks2017.Purchasing.Vendor" type="Bool" />
+            <Field name="PurchasingWebServiceURL" size="1024" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Purchasing.Vendor.BusinessEntityID,&#xA;	AdventureWorks2017.Purchasing.Vendor.AccountNumber,&#xA;	AdventureWorks2017.Purchasing.Vendor.Name,&#xA;	AdventureWorks2017.Purchasing.Vendor.CreditRating,&#xA;	AdventureWorks2017.Purchasing.Vendor.PreferredVendorStatus,&#xA;	AdventureWorks2017.Purchasing.Vendor.ActiveFlag,&#xA;	AdventureWorks2017.Purchasing.Vendor.PurchasingWebServiceURL &#xA;from AdventureWorks2017.Purchasing.Vendor" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:AdvWorksPurchase|||select AdventureWorks2017.Person.BusinessEntityAddress.BusinessEntityID,
+	AdventureWorks2017.Person.BusinessEntityAddress.AddressID,
+	AdventureWorks2017.Person.BusinessEntityAddress.AddressTypeID 
+from AdventureWorks2017.Person.BusinessEntityAddress</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorksPurchase
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessEntityID" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Person.BusinessEntityAddress.BusinessEntityID,&#xA;	AdventureWorks2017.Person.BusinessEntityAddress.AddressID,&#xA;	AdventureWorks2017.Person.BusinessEntityAddress.AddressTypeID &#xA;from AdventureWorks2017.Person.BusinessEntityAddress" type="Int32" />
+            <Field name="AddressID" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Person.BusinessEntityAddress.BusinessEntityID,&#xA;	AdventureWorks2017.Person.BusinessEntityAddress.AddressID,&#xA;	AdventureWorks2017.Person.BusinessEntityAddress.AddressTypeID &#xA;from AdventureWorks2017.Person.BusinessEntityAddress" type="Int32" />
+            <Field name="AddressTypeID" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Person.BusinessEntityAddress.BusinessEntityID,&#xA;	AdventureWorks2017.Person.BusinessEntityAddress.AddressID,&#xA;	AdventureWorks2017.Person.BusinessEntityAddress.AddressTypeID &#xA;from AdventureWorks2017.Person.BusinessEntityAddress" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="210" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_BusinessEntityID" selected="True" rename="VendorKey" input="Left_" />
+                <SelectField field="Left_AccountNumber" selected="True" input="Left_" />
+                <SelectField field="Left_Name" selected="True" rename="VendorName" input="Left_" />
+                <SelectField field="Left_CreditRating" selected="True" input="Left_" />
+                <SelectField field="Left_PreferredVendorStatus" selected="True" input="Left_" />
+                <SelectField field="Left_ActiveFlag" selected="True" input="Left_" />
+                <SelectField field="Left_PurchasingWebServiceURL" selected="True" input="Left_" />
+                <SelectField field="Right_BusinessEntityID" selected="False" rename="Right_BusinessEntityID" input="Right_" />
+                <SelectField field="Right_AddressID" selected="True" input="Right_" />
+                <SelectField field="Right_AddressTypeID" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="VendorKey" selected="True" />
+            <SelectField field="AccountNumber" selected="True" />
+            <SelectField field="VendorName" selected="True" />
+            <SelectField field="CreditRating" selected="True" />
+            <SelectField field="PreferredVendorStatus" selected="True" />
+            <SelectField field="ActiveFlag" selected="True" />
+            <SelectField field="PurchasingWebServiceURL" selected="True" />
+            <SelectField field="AddressID" selected="True" />
+            <SelectField field="AddressTypeID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="False" rename="Ve" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="294" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:AdvWorksPurchase|||select AdventureWorks2017.Person.Address.AddressID,
+	AdventureWorks2017.Person.Address.AddressLine1,
+	AdventureWorks2017.Person.Address.AddressLine2 
+from AdventureWorks2017.Person.Address</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorksPurchase
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="AddressID" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Person.Address.AddressID,&#xA;	AdventureWorks2017.Person.Address.AddressLine1,&#xA;	AdventureWorks2017.Person.Address.AddressLine2 &#xA;from AdventureWorks2017.Person.Address" type="Int32" />
+            <Field name="AddressLine1" size="60" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Person.Address.AddressID,&#xA;	AdventureWorks2017.Person.Address.AddressLine1,&#xA;	AdventureWorks2017.Person.Address.AddressLine2 &#xA;from AdventureWorks2017.Person.Address" type="V_WString" />
+            <Field name="AddressLine2" size="60" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Person.Address.AddressID,&#xA;	AdventureWorks2017.Person.Address.AddressLine1,&#xA;	AdventureWorks2017.Person.Address.AddressLine2 &#xA;from AdventureWorks2017.Person.Address" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="426" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="AddressID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="AddressID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_VendorKey" selected="True" input="Left_" />
+                <SelectField field="Left_AccountNumber" selected="True" input="Left_" />
+                <SelectField field="Left_VendorName" selected="True" input="Left_" />
+                <SelectField field="Left_CreditRating" selected="True" input="Left_" />
+                <SelectField field="Left_PreferredVendorStatus" selected="True" input="Left_" />
+                <SelectField field="Left_ActiveFlag" selected="True" input="Left_" />
+                <SelectField field="Left_PurchasingWebServiceURL" selected="True" input="Left_" />
+                <SelectField field="Left_AddressID" selected="True" input="Left_" />
+                <SelectField field="Left_AddressTypeID" selected="True" input="Left_" />
+                <SelectField field="Right_AddressID" selected="False" rename="Right_AddressID" input="Right_" />
+                <SelectField field="Right_AddressLine1" selected="True" input="Right_" />
+                <SelectField field="Right_AddressLine2" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="498" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:AdvWorksPurchase|||select AdventureWorks2017.Person.AddressType.AddressTypeID,
+	AdventureWorks2017.Person.AddressType.Name 
+from AdventureWorks2017.Person.AddressType</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorksPurchase
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="AddressTypeID" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Person.AddressType.AddressTypeID,&#xA;	AdventureWorks2017.Person.AddressType.Name &#xA;from AdventureWorks2017.Person.AddressType" type="Int32" />
+            <Field name="Name" size="50" source="File: aka:AdvWorksPurchase|||select AdventureWorks2017.Person.AddressType.AddressTypeID,&#xA;	AdventureWorks2017.Person.AddressType.Name &#xA;from AdventureWorks2017.Person.AddressType" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="534" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="630" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="AddressTypeID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="AddressTypeID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_VendorKey" selected="True" input="Left_" />
+                <SelectField field="Left_AccountNumber" selected="True" input="Left_" />
+                <SelectField field="Left_VendorName" selected="True" input="Left_" />
+                <SelectField field="Left_CreditRating" selected="True" input="Left_" />
+                <SelectField field="Left_PreferredVendorStatus" selected="True" input="Left_" />
+                <SelectField field="Left_ActiveFlag" selected="True" input="Left_" />
+                <SelectField field="Left_PurchasingWebServiceURL" selected="True" input="Left_" />
+                <SelectField field="Left_AddressID" selected="True" input="Left_" />
+                <SelectField field="Left_AddressLine1" selected="True" input="Left_" />
+                <SelectField field="Left_AddressLine2" selected="True" input="Left_" type="V_String" size="60" />
+                <SelectField field="Right_AddressTypeID" selected="False" rename="Right_AddressTypeID" input="Right_" />
+                <SelectField field="Right_Name" selected="True" rename="AddTypeName" input="Right_" type="V_String" size="50" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="726" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="VendorKey" selected="True" />
+            <SelectField field="AccountNumber" selected="True" />
+            <SelectField field="VendorName" selected="True" />
+            <SelectField field="CreditRating" selected="True" />
+            <SelectField field="PreferredVendorStatus" selected="True" />
+            <SelectField field="ActiveFlag" selected="True" />
+            <SelectField field="PurchasingWebServiceURL" selected="True" />
+            <SelectField field="AddressID" selected="True" />
+            <SelectField field="AddressLine1" selected="True" />
+            <SelectField field="AddressLine2" selected="True" />
+            <SelectField field="AddTypeName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="726" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:AdvWorksPurchase|||select DimGeography.GeoKey 
+from DimGeography</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorksPurchase
+Query=select DimGeography.GeoKey ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GeoKey" source="File: aka:AdvWorksPurchase|||select DimGeography.GeoKey &#xA;from DimGeography" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="834" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="AddressID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="GeoKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_VendorKey" selected="True" input="Left_" />
+                <SelectField field="Left_AccountNumber" selected="True" input="Left_" />
+                <SelectField field="Left_VendorName" selected="True" input="Left_" />
+                <SelectField field="Left_CreditRating" selected="True" input="Left_" />
+                <SelectField field="Left_PreferredVendorStatus" selected="True" input="Left_" />
+                <SelectField field="Left_ActiveFlag" selected="True" input="Left_" />
+                <SelectField field="Left_PurchasingWebServiceURL" selected="True" input="Left_" />
+                <SelectField field="Left_AddressLine1" selected="True" input="Left_" />
+                <SelectField field="Left_AddressLine2" selected="True" input="Left_" />
+                <SelectField field="Left_AddTypeName" selected="True" input="Left_" />
+                <SelectField field="Right_GeoKey" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="942" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="VendorKey" selected="True" />
+            <SelectField field="AccountNumber" selected="True" />
+            <SelectField field="VendorName" selected="True" />
+            <SelectField field="CreditRating" selected="True" />
+            <SelectField field="PreferredVendorStatus" selected="True" />
+            <SelectField field="ActiveFlag" selected="True" />
+            <SelectField field="PurchasingWebServiceURL" selected="True" />
+            <SelectField field="AddressLine1" selected="True" />
+            <SelectField field="AddressLine2" selected="True" />
+            <SelectField field="AddTypeName" selected="True" />
+            <SelectField field="GeoKey" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1038" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:AdvWorksPurchase|||DimVendor</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorksPurchase
+Query=DimVendor</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Join" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DimVendor_old</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

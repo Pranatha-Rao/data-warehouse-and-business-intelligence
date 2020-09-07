@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,
+	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,
+	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,
+	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,
+	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,
+	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,
+	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,
+	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,
+	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,
+	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,
+	AdventureWorksDW2017.dbo.DimDate.CalendarYear 
+from AdventureWorksDW2017.dbo.DimDate</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorks_Purchase
+Query=select AdventureWorksDW2017....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DateKey" source="File: aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarYear &#xA;from AdventureWorksDW2017.dbo.DimDate" type="Int32" />
+            <Field name="FullDateAlternateKey" source="File: aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarYear &#xA;from AdventureWorksDW2017.dbo.DimDate" type="Date" />
+            <Field name="DayNumberOfWeek" source="File: aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarYear &#xA;from AdventureWorksDW2017.dbo.DimDate" type="Int16" />
+            <Field name="EnglishDayNameOfWeek" size="10" source="File: aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarYear &#xA;from AdventureWorksDW2017.dbo.DimDate" type="V_WString" />
+            <Field name="DayNumberOfMonth" source="File: aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarYear &#xA;from AdventureWorksDW2017.dbo.DimDate" type="Int16" />
+            <Field name="DayNumberOfYear" source="File: aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarYear &#xA;from AdventureWorksDW2017.dbo.DimDate" type="Int16" />
+            <Field name="WeekNumberOfYear" source="File: aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarYear &#xA;from AdventureWorksDW2017.dbo.DimDate" type="Int16" />
+            <Field name="EnglishMonthName" size="10" source="File: aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarYear &#xA;from AdventureWorksDW2017.dbo.DimDate" type="V_WString" />
+            <Field name="MonthNumberOfYear" source="File: aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarYear &#xA;from AdventureWorksDW2017.dbo.DimDate" type="Int16" />
+            <Field name="CalendarQuarter" source="File: aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarYear &#xA;from AdventureWorksDW2017.dbo.DimDate" type="Int16" />
+            <Field name="CalendarYear" source="File: aka:AdvWorks_Purchase|||select AdventureWorksDW2017.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW2017.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW2017.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW2017.dbo.DimDate.CalendarYear &#xA;from AdventureWorksDW2017.dbo.DimDate" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DateKey" selected="True" />
+            <SelectField field="FullDateAlternateKey" selected="True" />
+            <SelectField field="DayNumberOfWeek" selected="True" />
+            <SelectField field="EnglishDayNameOfWeek" selected="True" rename="DayNameOfWeek" type="V_String" size="50" />
+            <SelectField field="DayNumberOfMonth" selected="True" />
+            <SelectField field="DayNumberOfYear" selected="True" />
+            <SelectField field="WeekNumberOfYear" selected="True" />
+            <SelectField field="EnglishMonthName" selected="True" rename="MonthName" type="V_String" size="50" />
+            <SelectField field="MonthNumberOfYear" selected="True" />
+            <SelectField field="CalendarQuarter" selected="True" />
+            <SelectField field="CalendarYear" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:AdvWorks_Purchase|||DimDate</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdvWorks_Purchase
+Query=DimDate</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DimDate</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
